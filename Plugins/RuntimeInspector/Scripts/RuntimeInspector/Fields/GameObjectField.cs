@@ -235,7 +235,6 @@ namespace RuntimeInspectorNamespace
 			yield return null;
 
 			inspector.Refresh();
-			inspector.EnsureScrollViewIsWithinBounds(); // Scroll view's contents can get out of bounds after removing a component
 		}
 	}
 }

@@ -103,12 +103,12 @@ namespace RuntimeInspectorNamespace
 		{
 			if( variables == null || variables.Length == 0 )
 			{
-				foreach( MemberInfo variable in Inspector.GetExposedVariablesForType( Value.GetType() ) )
+				foreach( MemberInfo variable in RuntimeInspectorManager.Instance.GetExposedVariablesForType( Value.GetType() ) )
 					CreateDrawerForVariable( variable );
 			}
 			else
 			{
-				foreach( MemberInfo variable in Inspector.GetExposedVariablesForType( Value.GetType() ) )
+				foreach( MemberInfo variable in RuntimeInspectorManager.Instance.GetExposedVariablesForType( Value.GetType() ) )
 				{
 					if( Array.IndexOf( variables, variable.Name ) >= 0 )
 						CreateDrawerForVariable( variable );
@@ -120,12 +120,12 @@ namespace RuntimeInspectorNamespace
 		{
 			if( variablesToExclude == null || variablesToExclude.Length == 0 )
 			{
-				foreach( MemberInfo variable in Inspector.GetExposedVariablesForType( Value.GetType() ) )
+				foreach( MemberInfo variable in RuntimeInspectorManager.Instance.GetExposedVariablesForType( Value.GetType() ) )
 					CreateDrawerForVariable( variable );
 			}
 			else
 			{
-				foreach( MemberInfo variable in Inspector.GetExposedVariablesForType( Value.GetType() ) )
+				foreach( MemberInfo variable in RuntimeInspectorManager.Instance.GetExposedVariablesForType( Value.GetType() ) )
 				{
 					if( Array.IndexOf( variablesToExclude, variable.Name ) < 0 )
 						CreateDrawerForVariable( variable );
