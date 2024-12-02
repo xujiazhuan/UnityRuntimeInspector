@@ -90,7 +90,6 @@ GameObject:
   - component: {fileID: 224526477923251334}
   - component: {fileID: 114810597662585366}
   - component: {fileID: 5252947360560121375}
-  - component: {fileID: 36560795782701832}
   - component: {fileID: 7937572412014186945}
   - component: {fileID: 6632344574794488693}
   - component: {fileID: 7636638507412351977}
@@ -170,20 +169,6 @@ MonoBehaviour:
   layoutGroup: {fileID: 114810597662585366}
   expandArrow: {fileID: 114337546039104162}
   initializeObjectButton: {fileID: 114018527557875226}
---- !u!114 &36560795782701832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1165314373957364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c19339d8da6b405b93a974acfba89239, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headerText: {fileID: 0}
-  draggableBody: {fileID: 1165314373957364}
 --- !u!222 &7937572412014186945
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1058,8 +1058,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: SocketOutput
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3783978722233111050, guid: d5b424b52c9f14126954e1025915a828, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4426410529968217237, guid: d5b424b52c9f14126954e1025915a828, type: 3}
@@ -1069,21 +1068,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8910129825122914749, guid: d5b424b52c9f14126954e1025915a828, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8726275443535714123}
-    - targetCorrespondingSourceObject: {fileID: 8910129825122914749, guid: d5b424b52c9f14126954e1025915a828, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1330867272533501472}
   m_SourcePrefab: {fileID: 100100000, guid: d5b424b52c9f14126954e1025915a828, type: 3}
---- !u!114 &2520160780083513537 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3438620103077454479, guid: d5b424b52c9f14126954e1025915a828, type: 3}
-  m_PrefabInstance: {fileID: 955051345131153998}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8567577111049386995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f341e172a637745228eec095608be17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &3471363609995572955 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4426410529968217237, guid: d5b424b52c9f14126954e1025915a828, type: 3}
@@ -1114,21 +1099,6 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &1330867272533501472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8567577111049386995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4a84eb2126144a8ac513cf189cc4668, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  socketId: 
-  handle: {fileID: 2520160780083513537}
-  connectionType: 0
 --- !u!1001 &2688803630784121711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1229,8 +1199,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: SocketInput
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2037711194971394908, guid: 08a2cede52f8c4446ba4b9e7b0d17783, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4426410529968217237, guid: 08a2cede52f8c4446ba4b9e7b0d17783, type: 3}
@@ -1240,26 +1209,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8910129825122914749, guid: 08a2cede52f8c4446ba4b9e7b0d17783, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1590999399769867093}
-    - targetCorrespondingSourceObject: {fileID: 8910129825122914749, guid: 08a2cede52f8c4446ba4b9e7b0d17783, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2826389766175218871}
   m_SourcePrefab: {fileID: 100100000, guid: 08a2cede52f8c4446ba4b9e7b0d17783, type: 3}
 --- !u!224 &1746631690730002426 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4426410529968217237, guid: 08a2cede52f8c4446ba4b9e7b0d17783, type: 3}
   m_PrefabInstance: {fileID: 2688803630784121711}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5157672854097915205 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7116585207108822570, guid: 08a2cede52f8c4446ba4b9e7b0d17783, type: 3}
-  m_PrefabInstance: {fileID: 2688803630784121711}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6843131081139133138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f341e172a637745228eec095608be17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6843131081139133138 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8910129825122914749, guid: 08a2cede52f8c4446ba4b9e7b0d17783, type: 3}
@@ -1285,18 +1240,3 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2826389766175218871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6843131081139133138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88ca2be4b787482d85ab3d54409544c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  socketId: 
-  handle: {fileID: 5157672854097915205}
-  connectionType: 1
